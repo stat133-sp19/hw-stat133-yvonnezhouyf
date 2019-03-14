@@ -3,7 +3,7 @@
 Private Repository for HW assignments of Stat 133 (Spring 2019)
 
 - Name: Yvonne Zhou
-- Github username: yvonnezhouyf@berkeley.edu
+- Github username: yvonnezhouyf
 - Email: yvonnezhouyf@berkeley.edu
 - Lab section: 107
 - GSI: Dodo Qian

@@ -118,7 +118,6 @@ server <- function(input, output) {
                             labels = c("no_contrib", "fixed_contrib", "growing_contrib"),
                             values = c("#FF6347", "#228B22", "#56B4E9")
          )
-       
      } else {
        # create a new data frame with types
        years = 0:input$years
@@ -144,8 +143,7 @@ server <- function(input, output) {
          xlab("year") +
          labs(colour = "variable") +
          theme_bw() +
-         scale_color_manual(labels = c("no_contrib", "fixed_contrib", 
-                                       "growing_contrib"), 
+         scale_color_manual(labels = c("no_contrib", "fixed_contrib", "growing_contrib"), 
                             values = c("#FF6347", "#228B22", "#56B4E9"))
      }
    })
